@@ -1,0 +1,42 @@
+nav {
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+    overflow: auto;
+    text-align: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+nav ul {
+    padding: 0px;
+}
+
+nav>ul>li {
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    /*    border: 1px solid;*/
+    float: left;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+li>a {
+    text-decoration: none;
+    color: #817e7e;
+}
+
+li:first-child {
+    font-size: 20px;
+    width: 140px;
+    line-height: 46px;
+}
+
+li>a:hover {
+    color: white;
+}

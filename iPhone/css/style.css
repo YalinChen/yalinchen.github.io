@@ -1,0 +1,129 @@
+.iphone7 {
+    position: relative;
+    border: 1px solid #ddd;
+    width: 400px;
+    height: 700px;
+    top: 2px;
+    left: 6px;
+    border-radius: 44px;
+    /*    background-image: url(../img/iPhone7.jpg);*/
+    background-position: -4px 0px;
+    background-size: 300px;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(235, 172, 183, 0.21);
+}
+
+.camera {
+    position: absolute;
+    border: 1px solid #ddd;
+    width: 10px;
+    height: 10px;
+    top: 32px;
+    left: 150px;
+    border-radius: 50%;
+    background: radial-gradient(circle, white, pink);
+}
+
+.circle {
+    position: absolute;
+    border: 1px solid #ddd;
+    width: 8px;
+    height: 8px;
+    top: 16px;
+    left: 190px;
+    border-radius: 50%;
+    background: radial-gradient(circle, white, pink);
+}
+
+.microphone {
+    position: absolute;
+    border: 1px solid #ddd;
+    width: 54px;
+    height: 7px;
+    top: 33px;
+    left: 170px;
+    background: radial-gradient(circle, white, pink);
+}
+
+.on-off-btn {
+    position: absolute;
+    border: 1px solid #ddd;
+    width: 4px;
+    height: 36px;
+    top: 114px;
+    left: 398px;
+    background-color: pink;
+}
+
+.ring-silent-btn {
+    position: absolute;
+    border: 1px solid #ddd;
+    width: 4px;
+    height: 20px;
+    top: 70px;
+    left: -4px;
+    background-color: pink;
+}
+
+.volume-up-btn {
+    position: absolute;
+    border: 1px solid #ddd;
+    width: 4px;
+    height: 37px;
+    top: 114px;
+    left: -4px;
+    background-color: pink;
+}
+
+.volume-down-btn {
+    position: absolute;
+    border: 1px solid #ddd;
+    width: 4px;
+    height: 37px;
+    top: 162px;
+    left: -4px;
+    background-color: pink;
+}
+
+.screen {
+    position: absolute;
+    border: 1px solid #ddd;
+    width: 360px;
+    height: 570px;
+    top: 67px;
+    left: 16px;
+    /*    background: rgba(255, 255, 255, 0.88);*/
+    overflow: auto;
+}
+
+.home-btn {
+    position: absolute;
+    border: 1px solid #ddd;
+    width: 38px;
+    height: 38px;
+    top: 650px;
+    left: 160px;
+    border-radius: 50%;
+    background: radial-gradient(circle, white, pink);
+}
+
+.home-btn:after {
+    position: absolute;
+    content: "";
+    border: 1px solid white;
+    display: block;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    top: 3px;
+    left: 3px;
+}
+
+#slideshow img {
+    width: 100%;
+}
+
+#slideshow {
+    margin: 0px;
+}

@@ -1,0 +1,24 @@
+/*Reset CSS*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+body,
+header,
+footer,
+aside,
+section,
+ul,
+div {
+    padding: 0px;
+    margin: 0px;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}

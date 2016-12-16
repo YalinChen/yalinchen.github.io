@@ -1,0 +1,13 @@
+.navbar {
+    margin-bottom: 0px;
+}
+
+a {
+    color: cadetblue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkseagreen;
+    text-decoration: none;
+}

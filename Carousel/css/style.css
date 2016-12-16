@@ -1,0 +1,33 @@
+#slideshow img {
+    width: 100%;
+}
+
+#slideshow {
+    margin: 0px;
+}
+
+.page-header {
+    border: 1px solid #ddd;
+    margin: 0px auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.box {
+    border: 1px solid #ddd;
+    padding: 2px;
+    background-color: #ddd;
+}
+
+form {
+    margin: 41px auto;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form-group {
+    border: 1px solid #ddd;
+    background-color: #ddd;
+    border-radius: none;
+}

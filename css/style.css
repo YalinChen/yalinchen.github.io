@@ -1,0 +1,106 @@
+hr {
+    width: 100%;
+    color: #ddd;
+    margin: 20px auto;
+}
+
+.title,
+.title:after,
+.title:before {
+    vertical-align: middle
+}
+
+.title:before,
+.title:after {
+    content: "";
+    display: inline-block;
+    width: 5px;
+    border: 1px solid;
+}
+
+.title:after {
+    margin-left: 10px;
+}
+
+.title:before {
+    margin-right: 10px;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-weight: lighter;
+    padding: 20px 0px 20px 0px;
+}
+
+footer>p {
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+
+/*Resume*/
+
+body {
+    background-color: rgba(122, 159, 175, 0.15);
+}
+
+.paper {
+    width: 90%;
+    height: 3000px;
+    margin: 90px auto;
+    padding: 10px;
+    background-color: white;
+    border-radius: 50px;
+    display: block;
+    position: relative;
+}
+
+.paper>.box {
+    max-width: 90%;
+    height: 2900px;
+    margin: 0px auto;
+    padding: 0px;
+    display: block;
+    line-height: 24px;
+    border: 1px solid #ddd;
+    position: absolute;
+    top: 60px;
+    left: 5%;
+}
+
+.MyInformation {
+    max-width: 90%;
+    margin: 10px auto;
+}
+
+capption>p {
+    font-size: 14px;
+    color: #504c4c;
+    text-align: left;
+}
+
+a {
+    color: forestgreen;
+    font-size: 14px;
+}
+
+.hw-icon {
+    width: 90%;
+    height: 100px;
+    display: block;
+    text-align: center;
+    margin: 2px auto;
+    padding: 2px;
+    border: 1px solid skyblue;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    /*    border: 1px solid skyblue;*/
+    background: radial-gradient(circle, white, skyblue);
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 36px;
+}
